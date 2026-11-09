@@ -10,7 +10,7 @@ public class logintest extends baseclass{
 	
 	public void exe()
 	{
-		// login execution
+		// login execution and update
 		loginpage ob = new loginpage(driver);
 		ob.starts("standard_user","secret_sauce");
 		ob.login();
